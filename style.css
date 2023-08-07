@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@400;600&display=swap"); /* font-family: 'Handjet', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,200&display=swap"); /* font-family: 'Raleway', sans-serif; */
+
+* {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.material-symbols-outlined {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 7rem;
+  font-family: "Handjet", cursive;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 50vw;
+  padding: 2rem;
+  border-radius: 0.3rem;
+  background-color: #fff;
+}
+
+.quote,
+.author,
+.videogame {
+  margin-bottom: 2rem;
+}
+
+.quote p {
+  display: inline;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.author p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.videogame p {
+  font-size: 1.3rem;
+  font-weight: 200;
+  font-style: italic;
+}
+
+button {
+  height: 2.5rem;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1.3rem;
+  font-weight: 200;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+h2,
+a {
+  font-size: 2rem;
+  font-family: "Handjet", cursive;
+  font-weight: 400;
+  text-decoration: none;
+}
